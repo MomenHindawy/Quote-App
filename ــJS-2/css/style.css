@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+h1 {
+    font-size: 70px;
+
+}
+
+h6 {
+    color: #e4dddd;
+}
+
+.paragraph {
+    color: #e4dddd;
+
+}
+
+.demo {
+    color: #ffffff;
+    background-color: rgb(60, 59, 65);
+}
+
+.demo:hover {
+    background-color: rgb(29, 26, 26);
+    color: #fff;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+.col-4 img {
+    height: 90px;
+    width: 90px;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.zorar {
+    height: 50px;
+    border: 2px solid #a59d9d;
+}
+
+.back-image {
+    background-image: url(../image/360_F_279342086_O7xEQnvISWtQdCf6bAvH0Mmuc5FAZNfn.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh
+}
